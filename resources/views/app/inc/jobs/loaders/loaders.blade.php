@@ -1,0 +1,1 @@
+<script data-src="{{ asset( 'tags/jobs/loaders/job-item-loader.tag' ) }}" type="riot/tag"></script>

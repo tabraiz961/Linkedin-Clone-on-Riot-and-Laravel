@@ -1,0 +1,22 @@
+$foundation-palette: (
+        primary: #23a3ba,
+        secondary: #767676,
+        success: #3adb76,
+        warning: #ffae00,
+        alert: #cc4b37,
+);
+
+$body-background: #F5F5F5;
+
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #0a0a0a;
+$white: #fefefe;
+
+$topbar-background: map-get($foundation-palette, primary) !global;
+$topbar-submenu-background: $white;
+$topbar-link-hover-color: $light-gray;
+
+$topbar-retract-speed: 0.15s;
+$popoverpanel-retract-speed: 0.10s;
